@@ -1,14 +1,12 @@
 
 header {display: inline-block;
-    width: 100%;
+    width: 100% ;
     font-size: 16px;
     margin-left: 8.5%;
     
 }
 
 header>img {float: left;
-    
-    
     display: inline-block;
 }
 
@@ -19,7 +17,8 @@ section>img {width: 50%;
 nav {float: right;
     display: inline-block;
     margin-top: 15.75px;
-    margin-right: 10%;
+    margin-right: 20%;
+    
     
 }
 
@@ -29,6 +28,7 @@ header a+a {margin-left: 25px ;}
 a {text-decoration: none;
     font-family:cursive ;
     color: #2C2540;
+    
 }
 
 a:hover {
