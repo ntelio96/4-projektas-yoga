@@ -19,7 +19,7 @@ header>img {
 
 }
 
-main>img {
+section>img {
     width: var(--img-width);
     float: right;
 }
@@ -53,14 +53,12 @@ nav>a:hover {
     
     border-color: var(--orandzine)
 }
-main {
+section {
     width: var(--main-width);
     margin-left: var(--sonasleft);
 }
 
-section {display: inline-block;
-    width: 100%;
-}
+
 
 h1 {font-size: 35px;
     font-family:cursive ;
@@ -70,17 +68,14 @@ h1 {font-size: 35px;
 
 div {
     width: var(--text-width);
-    text-align: left;
-     
+    text-align: left; 
     margin-top: 10%;
     margin-right: var(--text-margin);
     float: left;
     }
 p {
     font-family:cursive ;
-    font-size: 14px;
-
-    
+    font-size: 16px ; 
 }
 
 div>a {
