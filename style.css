@@ -89,6 +89,11 @@ div>a {
     
 }
 
+div > a:hover {
+    background-color: #fff;
+    color: var(--orandzine);
+}
+
 h1+p {
     margin-bottom: 10%;
 }
