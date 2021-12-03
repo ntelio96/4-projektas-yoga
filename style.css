@@ -9,19 +9,23 @@
 }
 header {display: inline-block;
     width: var(--plotis);
-    margin-left: var(--sonasleft)   
+    margin-left: var(--sonasleft) ;  
+    
 }
 
-header>img {
+header > img {
     float: left;
     height: 60px;
+    
 
 
 }
 
-section>img {
+section > img {
     width: var(--img-width);
     float: right;
+    margin-top: 5%;
+   
 }
 
 nav {float: right;
@@ -29,7 +33,7 @@ nav {float: right;
     margin-top: 15.75px;
     
 }
-nav>a { 
+nav > a { 
     line-height: 20px;
     font-size: 16px;
     border-bottom: 3px solid transparent;
@@ -56,6 +60,8 @@ nav>a:hover {
 section {
     width: var(--main-width);
     margin-left: var(--sonasleft);
+    
+    
 }
 
 
@@ -69,7 +75,7 @@ h1 {font-size: 35px;
 div {
     width: var(--text-width);
     text-align: left; 
-    margin-top: 10%;
+    margin-top: 15%;
     margin-right: var(--text-margin);
     float: left;
     }
