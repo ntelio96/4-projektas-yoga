@@ -1,28 +1,46 @@
-
+:root {
+    --orandzine: #DE523B; 
+    --plotis: 1000px;
+    --sonasleft: calc((100% - var(--plotis)) / 2);
+    --main-width: calc(var(--plotis)+ var(--sonasleft));
+    --text-width: calc(var(--plotis) * 0.4) ;
+    --text-margin: calc(var(--plotis) * 0.1);
+    --img-width: calc(100% - var(--plotis) / 2);
+}
 header {display: inline-block;
-    width: 100% ;
-    font-size: 16px;
-    margin-left: 8.5%;
-    
+    width: var(--plotis);
+    margin-left: var(--sonasleft)   
 }
 
-header>img {float: left;
-    display: inline-block;
+header>img {
+    float: left;
+    height: 60px;
+
+
 }
 
-section>img {width: 50%;
+main>img {
+    width: var(--img-width);
     float: right;
 }
 
 nav {float: right;
-    display: inline-block;
+    
     margin-top: 15.75px;
-    margin-right: 20%;
     
-    
+}
+nav>a { 
+    line-height: 20px;
+    font-size: 16px;
+    border-bottom: 3px solid transparent;
 }
 
 header a+a {margin-left: 25px ;}
+
+nav > a:first-child{
+
+border-color: #DE523B;
+}
 
 
 a {text-decoration: none;
@@ -31,8 +49,13 @@ a {text-decoration: none;
     
 }
 
-a:hover {
-    text-decoration: underline #DE523B
+nav>a:hover {
+    
+    border-color: var(--orandzine)
+}
+main {
+    width: var(--main-width);
+    margin-left: var(--sonasleft);
 }
 
 section {display: inline-block;
@@ -46,10 +69,12 @@ h1 {font-size: 35px;
 }
 
 div {
-    width: 30%;
+    width: var(--text-width);
     text-align: left;
-    margin-left: 10%; 
+     
     margin-top: 10%;
+    margin-right: var(--text-margin);
+    float: left;
     }
 p {
     font-family:cursive ;
